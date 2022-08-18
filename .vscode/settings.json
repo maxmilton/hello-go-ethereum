@@ -1,0 +1,33 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "go.lintOnSave": "file",
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": ["--enable-all"],
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "prettier.ignorePath": ".gitignore",
+  "[go]": {
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "golang.go",
+    "editor.codeActionsOnSave": ["source.sortImports", "source.formatDocument"]
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": [
+      "source.sortImports",
+      "source.formatDocument",
+      "source.fixAll.eslint"
+    ]
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": [
+      "source.sortImports",
+      "source.formatDocument",
+      "source.fixAll.eslint"
+    ]
+  }
+}

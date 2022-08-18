@@ -1,0 +1,5 @@
+.bin/
+contract/*.abi
+contract/*.bin
+hello-go-ethereum
+Storage.go
