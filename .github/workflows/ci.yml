@@ -10,8 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-go@v3
-          with:
-            go-version-file: 'go.mod'
+        with:
+          go-version-file: "go.mod"
+          check-latest: true
       - run: ./setup.sh
       - run: go build -v ./...
       - run: go test -v ./...
@@ -20,8 +21,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-go@v3
-          with:
-            go-version-file: 'go.mod'
+        with:
+          go-version-file: "go.mod"
+          check-latest: true
       - run: ./setup.sh
       - run: go build -v ./...
       # https://golangci-lint.run/usage/install/#ci-installation
