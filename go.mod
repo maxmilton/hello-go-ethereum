@@ -2,7 +2,7 @@ module github.com/maxmilton/hello-go-ethereum
 
 go 1.19
 
-require github.com/ethereum/go-ethereum v1.10.23
+require github.com/ethereum/go-ethereum v1.10.25
 
 require (
 	github.com/StackExchange/wmi v1.2.1 // indirect
